@@ -11,4 +11,6 @@ public class Microservice {
     public Long id;
     @Column(name = "name", length = 80)
     public String name;
+    @Column(name = "path")
+    public String path;
 }
